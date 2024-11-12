@@ -27,7 +27,7 @@ Airflow Dashboard: Airflow Management
 - **Orchestration and Monitoring**: Airflow, Docker 
 - **Analytics and Visualization**: Tableau
 
-![Architecture Diagram](image.png)
+![Architecture Diagram](/architecture_diagrams/proposed_diagram.png)
 
 
 ## Project Execution
