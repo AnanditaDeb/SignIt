@@ -69,14 +69,13 @@ Note: Ensure Docker Desktop is running before executing these commands.
 The project is organized as follows:
 
 Sign It/
-│
-├── streamlit/      # Contains web application files
-├── api/            # FastAPI functions for backend API
-├── pytest/         # Testing files and use cases
-├── data/           # Dataset, ASL videos, and images
-├── ml-model/       # Code to use the mediapipe gesture recognition model
-├── airflow/        # Airflow DAGs for data processing
-└── .env            # Environment variables file
+- streamlit/      # Contains web application files
+-  api/            # FastAPI functions for backend API
+- pytest/         # Testing files and use cases
+─ data/           # Dataset, ASL videos, and images
+─ ml-model/       # Code to use the mediapipe gesture recognition model
+─ airflow/        # Airflow DAGs for data processing
+─ .env            # Environment variables file
 
 
 
