@@ -27,6 +27,9 @@ Airflow Dashboard: Airflow Management
 - **Orchestration and Monitoring**: Airflow, Docker 
 - **Analytics and Visualization**: Tableau
 
+![Architecture Diagram](image.png)
+
+
 ## Project Execution
 
 ### Prerequisites
@@ -75,5 +78,6 @@ Sign It/
 ├── airflow/        # Airflow DAGs for data processing
 └── .env            # Environment variables file
 
-![Architecture Diagram](image.png)
+
+
 
