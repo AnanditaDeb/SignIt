@@ -3,7 +3,7 @@ Bridging Communication Gaps Through Sign Language Recognition
 Sign It is a machine-learning-based web application designed to increase accessibility for the deaf and hard-of-hearing community. Utilizing advanced algorithms and machine learning, it provides real-time ASL and ISL (American Sign Language, Indian Sign Language) translation and interactive ASL and ISL learning modules, empowering users to interact seamlessly with both hearing and non-hearing communities.
 
 # Project Overview
-Sign language is a vital communication method, yet it remains unfamiliar to many people. For the deaf and hard-of-hearing, communicating in a predominantly hearing world can be challenging. Sign It aims to bridge this gap by offering real-time ASL translation and interactive ASL learning, catering specifically to the needs of the hearing-impaired community.
+Sign language is a vital communication method, yet it remains unfamiliar to many people. For the deaf and hard-of-hearing, communicating in a predominantly hearing world can be challenging. Sign It aims to bridge this gap by offering real-time ASL translation and interactive learning, catering specifically to the needs of the hearing-impaired community.
 
 ## Key features:
 
@@ -45,19 +45,19 @@ To begin, ensure that you have the following installed:
 
 - Environment Variables Create a .env file in the project root with the following environment variables:
 
-AIRFLOW_UID=<your_airflow_uid>
-AIRFLOW_GID=<your_airflow_gid>
-AIRFLOW_USERNAME=<your_airflow_username>
-AIRFLOW_PASSWORD=<your_airflow_password>
-AIRFLOW_URL=<your_airflow_url>
+- AIRFLOW_UID=<your_airflow_uid>
+- AIRFLOW_GID=<your_airflow_gid>
+- AIRFLOW_USERNAME=<your_airflow_username>
+- AIRFLOW_PASSWORD=<your_airflow_password>
+- AIRFLOW_URL=<your_airflow_url>
 
-AWS_ACCESS_KEY=<your_aws_access_key>
-AWS_SECRET_KEY=<your_aws_secret_key>
-Sign It_BUCKET=<your_s3_bucket_name>
+- AWS_ACCESS_KEY=<your_aws_access_key>
+- AWS_SECRET_KEY=<your_aws_secret_key>
+- Sign It_BUCKET=<your_s3_bucket_name>
 
-OPENAI_SECRET_KEY=<your_openai_secret_key>
-API_URL=<api_url>
-JWT_SECRET_KEY=<jwt_secret_key>
+- OPENAI_SECRET_KEY=<your_openai_secret_key>
+- API_URL=<api_url>
+- JWT_SECRET_KEY=<jwt_secret_key>
 
 - Run Docker Containers Build and run the necessary Docker containers with the following commands:
 
@@ -69,13 +69,13 @@ Note: Ensure Docker Desktop is running before executing these commands.
 The project is organized as follows:
 
 Sign It/
-- streamlit/      # Contains web application files
--  api/            # FastAPI functions for backend API
-- pytest/         # Testing files and use cases
-─ data/           # Dataset, ASL videos, and images
-─ ml-model/       # Code to use the mediapipe gesture recognition model
-─ airflow/        # Airflow DAGs for data processing
-─ .env            # Environment variables file
+- streamlit       # Contains web application files
+-  api            # FastAPI functions for backend API
+- pytest          # Testing files and use cases
+- data            # Dataset, ASL videos, and images
+- ml-model        # Code to use the mediapipe gesture recognition model
+- airflow         # Airflow DAGs for data processing
+- .env            # Environment variables file
 
 
 
